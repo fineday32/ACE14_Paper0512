@@ -105,7 +105,7 @@ breaklinks=true,
 
 \begin{abstract}
 
-In this work, we want to explore the game design for body language communication in cooperative game. First, we propose design goals which we wish to achieve. Second, follow our game goals, we make a game prototype, Mute Robot, to evaluate and confirm our thoughts. The results of the user study are excellent, and the game fun and enjoyment are 4.5 (on a scale of 1 to 5), and have quite good co-experience. Finally, according to our design goals and users feedback, we propose the design guidelines for body language communication in cooperative game.
+In this work, we want to explore the game design for body language communication in cooperative game. First, we propose design goals which we wish to achieve. Second, follow our game goals, we make a game prototype, Mute Robot, to evaluate and confirm our thoughts. The results of the user study are excellent, and the game fun and enjoyment are 4.5(on a scale of 1 to 5), and have quite good co-experience. Finally, we propose the design guidelines for body language communication in cooperative game.
 
 \end{abstract}
 
@@ -129,7 +129,7 @@ In this work, we want to explore the game design for body language communication
 
 In the last decades, cooperation has developed from an additional feature into a full-grown game component, motivating more and more players to join a game. As a result, there is more and more researchers study in cooperative game design. Based on previous works, we explore the possibility of using body language in cooperative game design. Because body language is a universal language that everyone use naturally, so we believe it is suitable for cooperative game which needs intensive communication with partners.
 
-We think out some design goals for body language communication, and develop a prototype game to evaluate player's game experience. We follow the goals to design the game prototype, Mute Robot. And recruit a user study for 12 groups with 24 user. Depending on the user study results, we can confirm that our game design for body language communication is quite successful. In final, consider our observations and users feedback, we propose ten design guidelines and hope it is beneficial for people who want to study body language communication in game design. 
+We think out some design goals for body language communication, and develop a prototype game to evaluate player's game experience. According to our 12 groups with 24 users results, we can confirm that our game design for body language communication is quite successful. In final, we propose ten design guidelines and hope it is beneficial for people who want to study body language communication in game design. 
 
 
 % \begin{figure}[!h]
@@ -144,17 +144,16 @@ We think out some design goals for body language communication, and develop a pr
 
 \subsection{Non-verbal communication game}
 
-Cooperative games with nonverbal communication had hit the market in these years. Players in Journey, the best game of the year in GDC 2013 \cite{I0}, can only communicate with each other by giving off pleasant sounds; Another game, Ways, allows player to use the mouse and the keyboard to control their avatar’s posture to communicate with each other. And the other game, Dark Souls, which is a famous game sold over 2.61 million copies, can only communicate through a set of predefined character animation.
+Cooperative games with nonverbal communication had hit the market in these years. Players in Journey[4], the best game of the year in  GDC 2013, can only communicate with each other by giving off pleasant sounds; Another game, Ways[5], allows player to use the mouse and the keyboard to control their avatar’s posture to communicate with each other. And the other game, Dark Souls [6], which is a famous game sold over 2.61 million copies, can only communicate through a set of predefined character animation.
 
 Nonverbal communication systems had already existed and had been studied earlier. 
-Galentucci \cite{I1} has designed a setting, which needs two players, located in different places, to play video games with communication requirement.
+Galentucci[7] has designed a setting, which needs two players, located in different places, to play video games with communication requirement.
 % Galentucci [7] has looked at a setting where pairs located in different places were playing video games that required communication. 
 They could communicate through graphical signals without using letters, and sign languages will be developed during the game; 
-Innocent and Haines \cite{I2} has been developed and evaluate a system called ‘symbolchat’, which is used in online multiplayer game worlds. In some research, a large set of symbols has been developed to be used for communication so that the symbol set becomes to resemble a language \cite{I3,I4}. Beyond pictographic chat systems, Åkerman et al \cite{I5}. also presented a gameboard for players to communicate through picture drawing. In our work, we explore and evaluate the possibility to use body language as a communication manner in cooperative game design, which becomes a new nonverbal communication manner for gaming.
+Innocent and Haines [8] has been developed and evaluate a system called ‘symbolchat’, which is used in online multiplayer game worlds. In some research, a large set of symbols has been developed to be used for communication so that the symbol set becomes to resemble a language[9, 10]. Beyond pictographic chat systems, Åkerman et al[11]. also presented a gameboard for players to communicate through picture drawing. In our work, we explore and evaluate the possibility to use body language as a communication manner in cooperative game design, which becomes a new nonverbal communication manner for gaming.
 
 \subsection{Cooperative Game Design}
-
-Some researchers had already developed cooperative game design patterns. For example, Zagal et al. explored cooperative patterns within board games \cite{CG1}. Bjork and Holopainen presented a large quantity of game design patterns \cite{CG3}. Rocha et al. \cite{CG4} proposes a framework of several cooperative game design patterns. El-Nasr et al. \cite{CPMs} extends the cooperative game design proposed from Rocha, and present a Cooperative Performance Metrics(CPM) used for analysis of cooperative games. We refer works mentioned above, and proposed new design patterns for body language communication in cooperative game.
+Some researchers had already developed cooperative game design patterns. For example, Rocha et al.[1] proposes a framework of several cooperative game design patterns; El-Nasr et al.[2] extends the cooperative game design proposed from Rocha, and present a Cooperative Performance Metrics(CPM)[123] used for analysis of cooperative games. We refer works mentioned above, and proposed new design patterns for body language communication in cooperative game.
 
 \section{Design Goal}
 In order to make significant design and contribution, we defined following goals for us to approach and achieve before game design.
@@ -191,7 +190,7 @@ Follow the design goals we proposed, we design a game prototype Mute Robot.
 
 The main idea we want to explore is the game design of using body language in cooperative game. In order to find out the answer, we had designed Mute Robot, a game in which two players must cooperate to solve a series of puzzle challenges by communicating through body language only.
 
-Mute Robot is a cooperative puzzle platformer game built using Unity3D[6] engine. The game involves two players at two distinct locations connected over the Internet. The players cannot talk to each other directly and the only way to communicate is using their body language. We use Kinect to capture player’s body language and apply to their avatar(see Figure \ref{fig:GD_F1}). In order to avoid arm fatigue of mid-air interac- tions[14] with Kinect, each player uses a Wii[4] controller to complete trivial manipulation (e.g. move left, move right, confirm, cancel).  
+Mute Robot is a cooperative puzzle platformer game built using Unity3D[6] engine. The game involves two players at two distinct locations connected over the Internet. The players cannot talk to each other directly and the only way to communicate is using their body language. We use Kinect (v1) to capture player’s body language and apply to their avatar(see Figure \ref{fig:GD_F1}). In order to avoid arm fatigue of mid-air interac- tions[14] with Kinect, each player uses a Wii[4] controller to complete trivial manipulation (e.g. move left, move right, confirm, cancel).  
 
 \begin{figure}[!h]
 \centering
@@ -206,9 +205,9 @@ Mute Robot is a cooperative puzzle platformer game built using Unity3D[6] engine
 For the goal to confirm our thoughts, our game design in Mute Robot match the game goal we proposed above.
 \begin{enumerate}
 \item Focus on Communication : 
-In order to strengthen the necessarily of communication between players, we manufacture ``Informatin asymmetric'' environment, which means that one player will receive some messages, and he needs to transfer messages to another player through communication (see Figure \ref{fig:GD_F2}). This will enforce players to communicate with each other. In our game, we also switch the player with receiving messages, so players will take turn to take over messages and make communicate in both direction. In order to make players communicate without distraction, we let the avatar, which corresponds to players movement in our game, catch player's body language when player is not moveing. In other words, player's body motion won't map to the avatar when the avatar is moving.
+In order to strengthen the necessarily of communication between players, we manufacture ``Informatin asymmetric'' environment, which means that one player will receive some messages, and he needs to transfer messages to another player through communication. This will enforce players to communicate with each other. In our game, we also switch the player with receiving messages, so players will take turn to take over messages and make communicate in both direction. In order to make players communicate without distraction, we let the avatar, which corresponds to players movement in our game, catch player's body language when player is not moveing. In other words, player's body motion won't map to the avatar when the avatar is moving.
 % 為了加強玩家間溝通的必要性，我們使用了Information asymmetric的設計，讓玩家間獲得的資訊不一致，擁有資訊的人必須透過溝通將訊息傳遞給其他人，this will make players communicate with each other 強制性地.在遊戲中，掌握資訊的玩家會交換，使得溝通不會只有單一方向，而會是交錯式的溝通方式。為了不讓玩家在溝通時分散注意力，我們在虛擬角色靜止不動時才抓玩家肢體語言，在角色移動時並不會map 玩家的動作。
-
+(use figure to explain-For example, in our game , only one player received puzzle hints .The player will use body language to guide the other player who don’t have enough information to solve puzzles.)
 \item Test the limitation: In order to test the limitation of using body language in cooperative game, we designed three puzzles with incremental difficulty. It means that the message player received will have higher complexity than previous one.
 We also anticipate players who can express the abstract concept. All puzzle in each level will not tell players how to express, and let players free imagination.
 % 在遊戲裡我們希望使用者可以表達像是情緒等抽象概念，而且每個謎題並不會告訴玩家要如何表達，讓玩家能自由發揮想像力。
@@ -233,17 +232,14 @@ In our game design, we will try our best to avoid body language which is related
 \end{figure}
 
 \section{User Study}
-
-To evaluate our game design, we totally recruited 12 groups with 24 users (15 male and 9 female, average age is 22.5) to play Mute Robot.  Every team will have two players and be placed in two distinct rooms. Players play Mute Robot with each other through Internet connection. After playing Mute Robot, players will fill out an extended Short Feedback Questionnaire (eSFQ) \cite{eSFQ} questionnaire to evaluate the game experience. It needs about 30 minutes to finish our user study experiment. 
+To evaluate our game design, we totally recruited 12 groups with 24 users (15 male and 9 female, average age is 22.5) to play Mute Robot. Every team will have two players and locate in two distinct rooms. 
+Players play Mute Robot with each other through Internet connection. After playing Mute Robot, players will fill out an eSFQ[17] questionnaire to evaluate the game experience. One player needs to spend about 30 minutes to finish our user study experiment. 
 
 \subsection{eSFQ Results}
 
 eSFQ \cite{eSFQ} had been proved that it was a questionnaire for rapid assessment of game experience. eSFQ capture the experienced fun/enjoyment, curiosity, and co-experience. 
 
 Fun/enjoyment included game enjoyment rating and description of the game experience (users selected keywords about their feeling), curiosity showed that the users were curious about the games (on a scale of 1 to 5), and co-experience were the feeling of interacting with each other (users selected keywords about their feeling).
-
-
-is created in social contexts, when people interact with each other
 
 \subsubsection{Fun and Enjoyment}
 For the game fun/enjoyment, the mean level of the fun experience for Mute Robot was 4.5 (SD = 0.65) (5 meaning “Yeah, fun” - highest level of fun and 1 meaning “Yawn, boring” - lowest level of fun). Their game experiences were related to intuitive (54\% of the users), exciting (46\%), and great (33\%). 
@@ -309,12 +305,19 @@ With consideration of culture distinction and different comprehension of body la
 
 \section{Conclusion}
 
-In this work, we propose a cooperative game design for the new and innovation communication way, body language. And make a game prototype, Mute Robot to confirm our design. We conduct a user study for 12 groups with 24 users. The results demonstrate body language is very suitable in cooperative game design. And prove the design we proposed is successful. In the future, game developer can make a better game experience with these design guidelines. We hope this work can inspire more explorations of new game designs and spread game entertainment for more people.
+In this work, we propose an innovative communication way by using body language in cooperative game design. We also complete a game prototype, Mute Robot, to evaluate and confirm our game design guideline. We conduct a user study for 12 groups within 24 users. Results indicate that body language is greatly suitable for cooperative game design, which also directly proved that our design is not only success but also provide a better game play environment. In the future, game developer can make a better game experience with these design guidelines. 
+%In addition, we hope this work can inspire more explorations of new game designs and spread game entertainment for more people.
+
+About our future work, we will focus on improving system's sensitivity, accuracy and diversity. We are willing to use higher resolution devices or software correction. For example, using Kinect (v2) to capture player's subtle movements. Furthermore, 
+%we want to capture player's facial expression that not only can we enhace the accuracy of emotional detection but we can also analyze players' emotion in more detail. Last but not least, 
+we will add more different levels to increase game's diversity, and hope to spread game entertainment for more people.
+
+% In this work, we propose a cooperative game design for the new and innovation communication way, body language. And make a game prototype, Mute Robot to confirm our design. We conduct a user study for 12 groups with 24 users. The results demonstrate body language is very suitable in cooperative game design. And prove the design we proposed is successful. In the future, game developer can make a better game experience with these design guidelines. We hope this work can inspire more explorations of new game designs and spread game entertainment for more people.
 
 \balance
 
-%\section{References format}
-%References must be the same font size as other body text.
+\section{References format}
+References must be the same font size as other body text.
 % REFERENCES FORMAT
 % References must be the same font size as other body text.
 
