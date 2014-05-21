@@ -150,7 +150,7 @@ Nonverbal communication systems had already existed and had been studied earlier
 Galentucci \cite{I1} has designed a setting, which needs two players, located in different places, to play video games with communication requirement.
 % Galentucci [7] has looked at a setting where pairs located in different places were playing video games that required communication. 
 They could communicate through graphical signals without using letters, and sign languages will be developed during the game; 
-Innocent and Haines \cite{I2} has been developed and evaluate a system called ‘symbolchat’, which is used in online multiplayer game worlds. In some research, a large set of symbols has been developed to be used for communication so that the symbol set becomes to resemble a language \cite{I3,I4}. Beyond pictographic chat systems, Åkerman et al \cite{I5}. also presented a gameboard for players to communicate through picture drawing. In our work, we explore and evaluate the possibility to use body language as a communication manner in cooperative game design, which becomes a new nonverbal communication manner for gaming.
+Innocent and Haines \cite{I2} has been developed and evaluate a system called ‘symbolchat’, which is used in online multiplayer game worlds. In some research, a large set of symbols has been developed to be used for communication so that the symbol set becomes to resemble a language \cite{I3,I4}. Beyond pictographic chat systems, Åkerman et al. \cite{I5} also presented a gameboard for players to communicate through picture drawing. In our work, we explore and evaluate the possibility to use body language as a communication manner in cooperative game design, which becomes a new nonverbal communication manner for gaming.
 
 \subsection{Cooperative Game Design}
 
@@ -160,9 +160,9 @@ Some researchers had already developed cooperative game design patterns. For exa
 In order to make significant design and contribution, we defined following goals for us to approach and achieve before game design.
 
 \begin{enumerate}
-\item Focus on Communication: a body language communication game without body language communication just make no sense. So we think communication should be required in each level. For communication game, the most important thing is communication rather than manipulation.
+\item Focus on Communication: a body language communication game without body language communication just makes no sense. So we think communication should be required in each level. For communication game, the most important thing is communication rather than manipulation.
 
-\item Test the limitation: we want to test the limitation and find out all posibility of using body language in cooperative games，
+\item Test the limitation: we want to test the limitation and find out all possibility of using body language in cooperative games，
 For this reason, the concept of each game level is distinct and progressive.
 % 因此每個遊戲階段需要表達的概念應該是不一樣的，並且是漸進式的，慢慢加深，挖掘body language的所有可能性。
 % we desire to explore the limitation of using body language as communication manner in the cooperative game. 
@@ -170,16 +170,16 @@ Therefore, in our game prototype, there are three stages with three different ty
 % The difficulty increases 
 
 \item Cooperative Fun: 
-We anticipate players can interact with each other by their body and limbs and strengthen players' collaborative experience. While playing the game, players can build up affective connection and both of them can have deeper recognition with each other.
+we anticipate players can interact with each other by their body and limbs and strengthen players' collaborative experience. While playing the game, players can build up an effective connection and both of them can have deeper recognition with each other.
 % 我們期望借由肢體上的互動，可以加強玩家間的合作體驗，並在遊玩的過程中建立情感的聯結，遊玩結束後能對一起玩的夥伴有更深的認識。
 % With virtual physical interaction between two players, they can build up the connection of emotion and have more knowledge about their partners after the game ends. 
 
 \item Avoid Frustration: 
-We think using body language can resolve the communication obstacle if there is language barrier between players. Body language also can decrease frustration by the matter of communication and produce better gameplay experience.
+we think using body language can resolve the communication obstacle if there is language barrier between players. Body language also can decrease frustration by the matter of communication and produce better gameplay experience.
 % 期望透過肢體語言可以解決語言不通的玩家在遊玩時的溝通障礙，降低因為溝通的問題所產生的挫折感，使遊戲體驗不會受到影響。
 % Without common language between players causes the frustration when players communicate with each other. However, 
 
-\item University: We want to make a better environment. If one day, all people around the world can play cooperative game through body language, it means that we success decrease the limitation of language barrier significantly.
+\item University: we want to make a better environment. If one day, all people around the world can play a cooperative game through body language, it means that we success decrease the limitation of language barrier significantly.
 % 所有人都可以透過body language進行遊戲，儘量降低語言上的限制。
 \end{enumerate}
 
@@ -191,7 +191,7 @@ Follow the design goals we proposed, we design a game prototype Mute Robot.
 
 The main idea we want to explore is the game design of using body language in cooperative game. In order to find out the answer, we had designed Mute Robot, a game in which two players must cooperate to solve a series of puzzle challenges by communicating through body language only.
 
-Mute Robot is a cooperative puzzle platformer game built using Unity3D[6] engine. The game involves two players at two distinct locations connected over the Internet. The players cannot talk to each other directly and the only way to communicate is using their body language. We use Kinect to capture player’s body language and apply to their avatar(see Figure \ref{fig:GD_F1}). In order to avoid arm fatigue of mid-air interac- tions[14] with Kinect, each player uses a Wii[4] controller to complete trivial manipulation (e.g. move left, move right, confirm, cancel).  
+Mute Robot is a cooperative puzzle platformer game built using Unity3D \cite{unity} engine. The game involves two players at two distinct locations connected over the Internet. The players cannot talk to each other directly and the only way to communicate is using their body language. We use Kinect (v1) to capture player’s body language and apply to their avatar(see Figure \ref{fig:GD_F1}). In order to avoid arm fatigue of mid-air interactions with Kinect, each player uses a Wii controller to complete trivial manipulation (e.g. move left, move right, confirm, cancel).  
 
 \begin{figure}[!h]
 \centering
@@ -206,21 +206,21 @@ Mute Robot is a cooperative puzzle platformer game built using Unity3D[6] engine
 For the goal to confirm our thoughts, our game design in Mute Robot match the game goal we proposed above.
 \begin{enumerate}
 \item Focus on Communication : 
-In order to strengthen the necessarily of communication between players, we manufacture ``Informatin asymmetric'' environment, which means that one player will receive some messages, and he needs to transfer messages to another player through communication (see Figure \ref{fig:GD_F2}). This will enforce players to communicate with each other. In our game, we also switch the player with receiving messages, so players will take turn to take over messages and make communicate in both direction. In order to make players communicate without distraction, we let the avatar, which corresponds to players movement in our game, catch player's body language when player is not moveing. In other words, player's body motion won't map to the avatar when the avatar is moving.
+in order to strengthen the necessarily of communication between players, we manufacture ``Informatin asymmetric'' environment, which means that one player will receive some messages, and he needs to transfer messages to another player through communication (see Figure \ref{fig:GD_F2}). This will enforce players to communicate with each other. In our game, we also switch the player with receiving messages, so players will take turn to take over messages and make communicate in both direction. In order to make players communicate without distraction, we let the avatar, which corresponds to players movement in our game, catch player's body language when player is not moveing. In other words, player's body motion won't map to the avatar when the avatar is moving.
 % 為了加強玩家間溝通的必要性，我們使用了Information asymmetric的設計，讓玩家間獲得的資訊不一致，擁有資訊的人必須透過溝通將訊息傳遞給其他人，this will make players communicate with each other 強制性地.在遊戲中，掌握資訊的玩家會交換，使得溝通不會只有單一方向，而會是交錯式的溝通方式。為了不讓玩家在溝通時分散注意力，我們在虛擬角色靜止不動時才抓玩家肢體語言，在角色移動時並不會map 玩家的動作。
 
-\item Test the limitation: In order to test the limitation of using body language in cooperative game, we designed three puzzles with incremental difficulty. It means that the message player received will have higher complexity than previous one.
+\item Test the limitation: in order to test the limitation of using body language in cooperative game, we designed three puzzles with incremental difficulty. It means that the message player received will have higher complexity than previous one.
 We also anticipate players who can express the abstract concept. All puzzle in each level will not tell players how to express, and let players free imagination.
 % 在遊戲裡我們希望使用者可以表達像是情緒等抽象概念，而且每個謎題並不會告訴玩家要如何表達，讓玩家能自由發揮想像力。
 \item Cooperative Fun: 
-In Mute Robot, players need to interact with each other to pass the level through body language. During the game, they have to guess another player's meaning of expression until they build up an unspoken consensus with each other. Through the process of guessing, players will produce the emotional connection. And at the end of the game, we will let players have a hug with each other in virtual game environment to express the emotion appreciation and gratefulness.
+in Mute Robot, players need to interact with each other to pass the level through body language. During the game, they have to guess another player's meaning of expression until they build up an unspoken consensus with each other. Through the process of guessing, players will produce the emotional connection. And at the end of the game, we will let players have a hug with each other in virtual game environment to express the emotion appreciation and gratefulness.
 % 在Mute Robot中，玩家會透過肢體語言互動來合作過關，在遊戲過程中互相猜測對方想表達的意思，直到建立彼此的默契，透過猜測的過程了解對方，產生情感上的聯結，並在遊戲最後讓雙方以虛擬的方式擁抱，向對方表達感謝以及鼓勵。
 In Mute Robot, players need to use body language to transmit messages and solve puzzles. In the beginning of the game, we observed that players attempt to guess the meaning of their partners’ postures until they build up their own understanding. 
 \item Avoid Frustration: 
-Let players communicate through body language and descend the matter of language barrier. In Mute Robot, player just has to transmit one single object or mission at one time, with the design of incremental difficulty, to decrease the players feeling of frustration.
+let players communicate through body language and descend the matter of language barrier. In Mute Robot, player just has to transmit one single object or mission at one time, with the design of incremental difficulty, to decrease the players feeling of frustration.
 % 讓玩家透過肢體語言溝通，降低語言不通的問題，而且在遊戲中，我們一次只會讓玩家表達單一的東西或指令，並以漸進式的難度設計，降低玩家感到挫折的機會。
 \item University: 
-In our game design, we will try our best to avoid body language which is related to culture or language characteristic, and let everyone can enjoy and entertain Mute Robot.
+in our game design, we will try our best to avoid body language which is related to culture or language characteristic, and let everyone can enjoy and entertain Mute Robot.
 % in our game design，我們儘量避免使用帶有文化或是語言特色的肢體語言，讓所有人都可以享受Mute Robot來的樂趣。
 \end{enumerate}
 
@@ -270,25 +270,25 @@ According to user study results, players think Mute Robot is very insteresting, 
 After user study, we extended our design goals and proposed the game design guideline for body language communication in cooperative gameplay.
 
 \begin{enumerate}
-\item necessarily of communication: 
-It's necessary for players to communicate during the game. In our game design, players need to communicate with each other in order to solve the puzzle and pass each level. In addition, the main idea of the game is communication rather than manipulation.
-\item intertwining communication environment: While players are playing the game, communication should not always in one single direction. For example, if the upper side players always receive the message and he always need to send the messages rather than receive the message, it becomes a terrible situation. In other words, players communication in both direction is a better game play environment and enhance game play experience.
+\item Necessarily of communication: 
+it's necessary for players to communicate during the game. In our game design, players need to communicate with each other in order to solve the puzzle and pass each level. In addition, the main idea of the game is communication rather than manipulation.
+\item Intertwining communication environment: while players are playing the game, communication should not always in one single direction. For example, if the upper side players always receive the message and he always need to send the messages rather than receive the message, it becomes a terrible situation. In other words, players communication in both direction is a better game play environment and enhance game play experience.
 \item Imagination inspired:
-There are many messages need to be transfer between players during the game. If sometimes we provide obstract messages for players, and without obvious telling players how to express these messages. Maybe players can imagine by their own, and they can inspire more imagination while playing the game.
+there are many messages need to be transfer between players during the game. If sometimes we provide obstract messages for players, and without obvious telling players how to express these messages. Maybe players can imagine by their own, and they can inspire more imagination while playing the game.
 \item Expression ability:
-In order to consider the expression of using body language, we will not let players to transfer too many and too complex message at one time.
+in order to consider the expression of using body language, we will not let players to transfer too many and too complex message at one time.
 \item Concentrated:
-Don't let players have many mission at the same time. For example, using body language to communicate and moving the avatar in virtual game environment at the same time is not a good situation and will not produce better game play experience.
+don't let players have many mission at the same time. For example, using body language to communicate and moving the avatar in virtual game environment at the same time is not a good situation and will not produce better game play experience.
 \item Balance of physical strength:
-Don't let all puzzle need to be solved by body movement. It will result in too much burden for players' physical power.
+don't let all puzzle need to be solved by body movement. It will result in too much burden for players' physical power.
 \item Vocalization: 
-Because of the silent environment by using body language to communicate, if there is more vocal stimulation provided, it will become and construct a vigorous and entertaining environment.
+because of the silent environment by using body language to communicate, if there is more vocal stimulation provided, it will become and construct a vigorous and entertaining environment.
 \item Virtual intimacy:
-Under the design of interaction, we need to cosider the body interaction between players, such as hand hold, embrace, hand clapping, etc. With these interaction, they will also enhance the collaboration between players.
+under the design of interaction, we need to cosider the body interaction between players, such as hand hold, embrace, hand clapping, etc. With these interaction, they will also enhance the collaboration between players.
 \item Display Setting: 
-Players have to obviously see their and another player's body movement on the display.
+players have to obviously see their and another player's body movement on the display.
 \item University:
-With consideration of culture distinction and different comprehension of body language, we design to let players try their best to use universe body language.
+with consideration of culture distinction and different comprehension of body language, we design to let players try their best to use universe body language.
 
 \end{enumerate}
 
