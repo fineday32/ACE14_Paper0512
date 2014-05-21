@@ -104,27 +104,33 @@ breaklinks=true,
 \maketitle
 
 \begin{abstract}
-Hi
+
+In this work, we want to explore the game design for body language communication in cooperative game. First, we propose design goals which we wish to achieve. Second, follow our game goals, we make a game prototype, Mute Robot, to evaluate and confirm our thoughts. The results of the user study are excellent, and the game fun and enjoyment are 4.5(on a scale of 1 to 5), and have quite good co-experience. Finally, we propose the design guidelines for body language communication in cooperative game.
+
 \end{abstract}
 
 \keywords{
-	Guides; instructions; author's kit; conference publications;
-	keywords should be separated by a semi-colon.
-	\textcolor{red}{Mandatory section to be included in your final version.}
+  game design; body language; cooperative game; interaction; video games; kinect
+	% Guides; instructions; author's kit; conference publications;
+	% keywords should be separated by a semi-colon.
+	% \textcolor{red}{Mandatory section to be included in your final version.}
 }
 
 \category{H.5.m.}{Information Interfaces and Presentation (e.g. HCI)}{Miscellaneous}
 
-See: \url{http://www.acm.org/about/class/1998/}
-for more information and the full list of ACM classifiers
-and descriptors. 
-\textcolor{red}{Mandatory section to be included in your
-final version. On the submission page only the classifiers'
-letter-number combination will need to be entered.}
+% See: \url{http://www.acm.org/about/class/1998/}
+% for more information and the full list of ACM classifiers
+% and descriptors. 
+% \textcolor{red}{Mandatory section to be included in your
+% final version. On the submission page only the classifiers'
+% letter-number combination will need to be entered.}
 
 \section{Introduction}
 
-In the last decades, cooperation has developed from an additional feature into a full-grown game component, motivating more and more players to join a game. As a result, there are more and more reseachers study in cooperative game design. In this work, we explore the new communication way, body language in cooperative game design,  proposed new design guidelines, and develop a prototype game Mute Robot to evaluate players’ game experience.
+In the last decades, cooperation has developed from an additional feature into a full-grown game component, motivating more and more players to join a game. As a result, there is more and more researchers study in cooperative game design. Based on previous works, we explore the possibility of using body language in cooperative game design. Because body language is a universal language that everyone use naturally, so we believe it is suitable for cooperative game which needs intensive communication with partners.
+
+We think out some design goals for body language communication, and develop a prototype game to evaluate player's game experience. According to our 12 groups with 24 users results, we can confirm that our game design for body language communication is quite successful. In final, we propose ten design guidelines and hope it is beneficial for people who want to study body language communication in game design. 
+
 
 % \begin{figure}[!h]
 % \centering
@@ -173,7 +179,14 @@ Follow the design goals we proposed, we make a game prototype Mute Robot, and we
 
 The main idea we want to explore is the game design of using body language in cooperative game. In order to find out the answer, we had designed Mute Robot, a game in which two players must cooperate to solve a series of puzzle challenges by communicating through body language only.
 
-Mute Robot is a cooperative puzzle platformer game built using Unity3D[6] engine. The game involves two players at two distinct locations connected over the Internet. The players cannot talk to each other directly and the only way to communicate is using their body language. We use Kinect to capture player’s body language and apply to their avatar(see Figure X). In order to avoid arm fatigue of mid-air interac- tions[14] with Kinect, each player uses a Wii[4] controller to complete trivial manipulation (e.g. move left, move right, confirm, cancel).  
+Mute Robot is a cooperative puzzle platformer game built using Unity3D[6] engine. The game involves two players at two distinct locations connected over the Internet. The players cannot talk to each other directly and the only way to communicate is using their body language. We use Kinect to capture player’s body language and apply to their avatar(see Figure \ref{fig:GD_F1}). In order to avoid arm fatigue of mid-air interac- tions[14] with Kinect, each player uses a Wii[4] controller to complete trivial manipulation (e.g. move left, move right, confirm, cancel).  
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=1.0\columnwidth]{Figures/GD_F1.pdf}
+\caption{Body movement mapping between player and avatar by Kinect}
+\label{fig:GD_F1}
+\end{figure}
 
 \subsection{Game Design in Mute Robot}
 
@@ -186,33 +199,46 @@ In Mute Robot, players need to use body language to transmit messages to solve p
 - Avoid Frustration: 讓玩家透過肢體語言溝通，降低語言不通的問題，而且在遊戲中，我們一次只會讓玩家表達單一的東西或指令，並以漸進式的難度設計，降低玩家感到挫折的機會。
 - University: in our game design，我們儘量避免使用帶有文化或是語言特色的肢體語言，讓所有人都可以享受Mute Robot來的樂趣。
 
-\section{User Study}
-To evaluate our game design, we totally recruited 12 groups with 24 users (15 male and 9 female, average age is 22.5) to play Mute Robot.  Every team will have two players and be placed in two distinct rooms. Players play Mute Robot with each other through Internet connection
+\begin{figure}[!h]
+\centering
+\includegraphics[width=1.0\columnwidth]{Figures/GD_F2.pdf}
+\caption{The asymmetric puzzle game design in one of Mute Robot's stages. (a) Bottom player's view, (b) Top player's view}
+\label{fig:GD_F2}
+\end{figure}
 
-After playing Mute Robot, players will fill out an eSFQ[17] questionnaire to evaluate the game experience. It needs about 30 minutes to finish our user study experiment. 
+\section{User Study}
+To evaluate our game design, we totally recruited 12 groups with 24 users (15 male and 9 female, average age is 22.5) to play Mute Robot.  Every team will have two players and be placed in two distinct rooms. Players play Mute Robot with each other through Internet connection. After playing Mute Robot, players will fill out an eSFQ[17] questionnaire to evaluate the game experience. It needs about 30 minutes to finish our user study experiment. 
 
 \subsection{eSFQ Results}
 
-eSFQ[17] had been proved that it is a questionnaire for rapid assessment of game experience. eSFQ capture the experi- enced fun/enjoyment, curiosity, and co-experience. 
+eSFQ[17] had been proved that it is a questionnaire for rapid assessment of game experience. eSFQ capture the experienced fun/enjoyment, curiosity, and co-experience. 
 
 
 \subsubsection{Fun and Enjoyment}
-For the game fun/enjoyment (see Figure X), the mean of the experienced fun level for Mute Robot was 4.5 (SD = 0.65) (5 meaning “Yeah, fun” - highest level of fun and 1 meaning “Yawn, boring” - lowest level of fun). 
+For the game fun/enjoyment, the mean of the experienced fun level for Mute Robot was 4.5 (SD = 0.65) (5 meaning “Yeah, fun” - highest level of fun and 1 meaning “Yawn, boring” - lowest level of fun). 
 
 \subsubsection{Curiosity}
-For the game curiosity (see Figure Y), the curiosity about Mute Robot was rated with a mean of 4.25 (SD = 0.85 (5 meaning very curious and 1 meaning not curious at all).
+For the game curiosity, the curiosity about Mute Robot was rated with a mean of 4.25 (SD = 0.85 (5 meaning very curious and 1 meaning not curious at all).
 
 \subsubsection{Co-experience}
 
-For the game co-experience(See figure XX), the users experienced playing Mute Robot together as cooperative (83% of the users), fun (75%), happy (54%), satisfying (44%), and encouraging (31%). 
+\begin{figure}[!h]
+\centering
+\includegraphics[width=1.0\columnwidth]{Figures/US_F1.pdf}
+\caption{Co-experience indexes for players}
+\label{fig:US_F1}
+\end{figure}
+
+For the game co-experience(See figure \ref{fig:US_F1}), the users experienced playing Mute Robot together as cooperative (83\% of the users), fun (75\%), happy (54\%), satisfying (44\%), and encouraging (31\%). 
 
 %小解釋result
 
+According to user study results, players think Mute Robot is very insteresting, and have enough curious about game world. For co-experience, it has good rating in cooperative, fun, happy, satisfying and encouraging. It could be said that Mute Robot has a great game experience by players evaluation. 
 根據實驗結果，可以發現玩家認為此遊戲是十分有趣的，而且對於遊戲擁有足夠的好奇心，在co-experience方面，擁有很好的cooperative, fun, happy, satisfying, encouraging，可以說在玩家的評價下mute robot是一款十分不錯且成功的遊戲。
 
 \section{Summary}
 
-After user study, we proposed following design guideline for body language communication in cooperative gameplay.(寫一小段)
+After user study, we extended our design goals and proposed the game design guideline for body language communication in cooperative gameplay.
 
 （總結，正式提出design guideline,多提一些跟溝通有關的，不然跟chi movement guideline 很像）
 -  溝通必要性 : 玩家在遊戲中的溝通是必要的，必須要讓玩家透過溝通才能過關，遊戲的重點是在溝通不是在操作。
@@ -223,15 +249,12 @@ After user study, we proposed following design guideline for body language commu
 - ­ 體力balance : 不要所有事情都得用動作完成,會造成使用者太大的體力負荷。
 ­- Vocalization : because using body language to communicate is silent , so need to provide more 聲音刺激。
 - Virtual Intimacy : 在互動的設計上，要考慮與玩家間的肢體互動，像是牽手‘擁抱、擊掌等等，可以加強合作感。
-- Social Connect ：玩家間情感的聯結
 - 顯示設定(Display Setting)：在顯示上要可以明確地看到自己和對方的肢體動作。
 - University: 考慮到文化差異對肢體語言理解的不同，儘量使用 universe body language。
 
 \section{Conclusion}
 
-In this work, we explore new cooperative game designs for body language communication. 
-  %In this work, we explore a new communication manner, body language, in cooperative game .
-  And present some design guidelines for body language in cooperative game, we proposed a game prototype, Mute Robot,which follow our game design. Our user study shows that with body language communication manner,the game fun and enjoyment will increase, and enhances the game co-experience. According to our final questionnaire, after adding the communication manner of body language, 75\% players choose our new communication manner (“body language” and “both”) as the favorite manner. And we also report some interesting communication patterns. Game developer can make a better game experience with these information. We hope this work can inspire more explorations of new communication ways and the unknown area in the game world.
+In this work, we propose a cooperative game design for the new and innovation communication way, body language. And make a game prototype, Mute Robot to confirm our design. We conduct a user study for 12 groups with 24 users. The results demonstrate body language is very suitable in cooperative game design. And prove the design we proposed is successful. In the future, game developer can make a better game experience with these design guidelines. We hope this work can inspire more explorations of new game designs and spread game entertainment for more people.
 
 \balance
 
